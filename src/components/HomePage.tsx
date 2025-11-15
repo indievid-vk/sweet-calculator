@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Button } from './ui/button';
 import { Plus, Calculator, History } from 'lucide-react';
 import { UsageGuideDialog } from './UsageGuideDialog';
-const heroImage = '/images/hero.png';
+const heroImage = '/sweet-calculator/images/hero.png';
 
 interface HomePageProps {
   calculationsCount: number;
